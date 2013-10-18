@@ -20,6 +20,7 @@ class ShopWindow(QMainWindow):
         self.browse_orders = QAction("Browse Orders",self)
         self.add_product = QAction("Add Product",self)
         self.browse_products = QAction("Browse Products",self)
+        self.add_customer.setShortcuts("Ctrl+q")
 
         #create the menubar
         self.menu_bar = QMenuBar()
